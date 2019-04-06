@@ -1,5 +1,5 @@
 function palindrome(kata) {
-    var kataBalik = kata.toLowerCase().split('').reverse().join('');
+    var kataBalik = kata.split('').reverse().join('');
     console.log(kataBalik)
 
 
